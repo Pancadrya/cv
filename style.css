@@ -33,9 +33,14 @@ i {
   top: 2px;
 }
 
+.list li {
+  margin-left: -15px;
+}
+
 .socmed li {
   list-style: none;
   padding-bottom: 5px;
+  margin-left: -28px;
 }
 
 .title {
@@ -60,5 +65,15 @@ i {
 
   .foto {
     width: 80%;
+  }
+
+  .list li {
+    margin-left: -10px;
+  }
+
+  .socmed li {
+    list-style: none;
+    padding-bottom: 5px;
+    margin-left: -20px;
   }
 }
