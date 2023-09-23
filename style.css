@@ -1,5 +1,9 @@
 body {
   margin: 10px;
+  height: 950px;
+  background-color: rgb(253, 254, 255);
+  justify-content: center;
+  align-items: center;
 }
 
 img {
@@ -9,10 +13,6 @@ img {
 p {
   text-align: justify;
   text-justify: inter-word;
-}
-
-body {
-  height: 950px;
 }
 
 hr {
@@ -31,6 +31,17 @@ i {
   padding-right: 10px;
   position: relative;
   top: 2px;
+}
+
+.main {
+  background-color: white;
+  width: 650px;
+  position: relative;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 60%;
+  padding: 10px 5px;
+  box-shadow: 5px 2px 14px 10px #eeeaea;
 }
 
 .list li {
@@ -58,9 +69,27 @@ i {
   padding-left: 100px;
 }
 
-@media (max-width: 576px) {
+.marginBottom {
+  position: absolute;
+  margin-top: 75px;
+  opacity: 0;
+}
+
+@media (max-width: 812px) {
   html {
     font-size: 75%;
+  }
+
+  body {
+    margin: 5px;
+    height: 750px;
+  }
+
+  .main {
+    background-color: white;
+    width: 500px;
+    position: relative;
+    box-shadow: 5px 2px 14px 10px #eeeaea;
   }
 
   .foto {
@@ -75,5 +104,41 @@ i {
     list-style: none;
     padding-bottom: 5px;
     margin-left: -20px;
+  }
+}
+
+@media (max-width: 576px) {
+  html {
+    font-size: 75%;
+  }
+
+  body {
+    margin: 10px;
+    height: 750px;
+  }
+
+  .main {
+    background-color: white;
+    width: 400px;
+    position: relative;
+    box-shadow: 5px 2px 14px 10px #eeeaea;
+  }
+
+  .foto {
+    width: 80%;
+  }
+
+  .list li {
+    margin-left: -10px;
+  }
+
+  .socmed li {
+    list-style: none;
+    padding-bottom: 5px;
+    margin-left: -20px;
+  }
+
+  .marginBottom {
+    margin-top: 25px;
   }
 }
