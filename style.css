@@ -41,6 +41,7 @@ i {
   left: 50%;
   top: 60%;
   padding: 10px 5px;
+  border-radius: 10px;
   box-shadow: 5px 2px 14px 10px #eeeaea;
 }
 
