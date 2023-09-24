@@ -62,7 +62,7 @@ i {
 
 .foto {
   width: 150px;
-  filter: brightness(0.9);
+  filter: grayscale(0.8);
   border-radius: 10px;
 }
 
