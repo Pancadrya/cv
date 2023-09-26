@@ -10,6 +10,12 @@ img {
   pointer-events: none;
 }
 
+h2,
+h5 {
+  font-family: "Comfortaa", "Major Mono Display", cursive;
+  font-weight: bold;
+}
+
 p {
   text-align: justify;
   text-justify: inter-word;
